@@ -19,6 +19,7 @@ body {
       align-items: center;
       justify-content: center;
       list-style: none;  
+      background-color: rgba(15, 219, 151, 0.918);
   }
 
   .nav-link {
@@ -65,3 +66,11 @@ body {
         height: 20%;
     }
 
+    .section {
+        margin: 0 10%;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: center;
+    }
