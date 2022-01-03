@@ -42,3 +42,10 @@ At the moment I run my own business braced with doors sales. But I've decided to
 ## Experience
 * Running of own business 7 years 
 * junior manager in construction 3 years
+
+## Education
+* BNTU Civil engineering bachelor
+* master's degree MBA BSU (english program)
+
+## English
+B2
