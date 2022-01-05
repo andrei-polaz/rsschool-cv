@@ -13,6 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div class="wrapper">
     <header class="header">
         <div class="container">
             <div class="avatar">
@@ -31,10 +32,10 @@
                   <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
                   <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
                   <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                  <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
                   <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
                 </ul>
-              </nav>
-        </div>
+            </nav>
     </header>
     <main class="main">
         <div class="container">
@@ -77,15 +78,33 @@
             <section class="section" id="code">
                 <h2>Code</h2>
                 <pre>
-                    <code> # **Andrei Polaz**
-                        ## Contact Info
-                        * adress: Minsk, Odoevskogo str, ap. 272
-                        * phone number: +375291423489
-                        * email: polozandrei1@gmail.com
-                        * GitHub: andrei-polaz
+                    <code> 
+                        let arr1 = [1,2,3,4,5];
+let arr2 = [6,7.8];
+let arr3 = [];
+  if (arr1.length > arr2.length) {
+    var count = arr1.length;
+  } else {
+    var count = arr2.length;
+  }
+      for (let i = 0; i < count; i++) {
+        if (arr2[i] === undefined) {
+            arr2.push(0);
+        } else {
+            if (arr1[i] === undefined) {
+              arr1.push(0);
+            }
+        }
+        arr3.push(arr1[i] + arr2[i]);
+      }
+console.log(arr3);
                     </code>
                 </pre>
                 
+            </section>
+            <section class="section" id="projects">
+                <h2>Projects</h2>
+               <a href="https://andrei-polaz.github.io/rsschool-cv">CV</a>
             </section>
             <section class="section" id="education">
                 <h2>Education</h2>
@@ -104,13 +123,14 @@
 
     </main>
     <footer class="footer">
-        <div class="container">
-            <p>2022 Andrei Polaz</p> 
-            <p><a href="https://github.com/andrei-polaz">GitHub</a></p>
-            <p><a href="https://app.rs.school/">RSschool</a></p>
-        </div>
-
+                     
+        <p>2022 Andrei Polaz</p> 
+        <p><a href="https://github.com/andrei-polaz">GitHub</a></p>
+        <p><a href="https://app.rs.school/"><img src="assets/img/rs_school_js.svg" alt="RS-link" width="70px"></a></p>
+                   
     </footer>
+
+    </div>
 
 </body>
 </html>
